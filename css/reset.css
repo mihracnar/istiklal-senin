@@ -1,0 +1,111 @@
+/**
+* CSS
+* @version 1.0
+* @author Ozhan Binici
+*/
+
+/* reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea, select, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box; -moz-box-sizing: border-box;-webkit-box-sizing:border-box;
+}
+textarea {
+    resize: none;
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+em {/* ek */
+	font-style:italic;
+} 
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:focus, a:active {outline: none;}
+input:focus, input:active {outline: none;}
+textarea:focus, textarea:active {outline: none;}
+
+a 	{text-decoration:none;}
+
+table	{border-spacing:0px;}
+
+object, embed { outline: 0; -moz-outline-style: 0; }
+
+.clear 				{clear:both;}
+
+li	{list-style-type:none;}
+
+strong {font-weight:bold;}
+
+img 	{display:block;}
+
+svg {
+	display:block;
+}
+/*
+     FILE ARCHIVED ON 17:24:50 Jun 01, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:09:19 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.741
+  exclusion.robots: 0.056
+  exclusion.robots.policy: 0.043
+  esindex: 0.01
+  cdx.remote: 26.842
+  LoadShardBlock: 147.595 (3)
+  PetaboxLoader3.datanode: 184.549 (4)
+  load_resource: 149.257
+  PetaboxLoader3.resolve: 110.61
+*/
