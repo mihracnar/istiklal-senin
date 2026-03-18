@@ -366,7 +366,7 @@ $(document).ready(function(){
 							if (window.sessionStorage) {
 								sessionStorage.setItem("benimrotam", JSON.stringify([]));
 							}
-							window.location.replace("/benim-rotam/" + response['slug']);
+							window.location.replace("benim-rotam/" + response['slug'] + "/index.html");
 						}
 						else{
 							$('#route-planner form.call-to-action .response').html(response['message']);

@@ -404,7 +404,7 @@
                         response(filteredArray);
                     },
                     select: function (event, ui) {
-                        window.location = "/mekanlar/" + ui.item.slug;
+                        window.location = "mekanlar/" + ui.item.slug + "/index.html";
                     }
                 }).focus(function(){
                     $(this).data("uiAutocomplete").search($(this).val());
@@ -412,7 +412,7 @@
                 
                 $('#mekan-ara').submit(function(e){
                     e.preventDefault();
-                    window.location = "/mekanlar/" + findLocationSlugByTitle($(this).children('#mekan-query').val());
+                    window.location = "mekanlar/" + findLocationSlugByTitle($(this).children('#mekan-query').val()) + "/index.html";
                 })
             });
             </script>
@@ -565,7 +565,7 @@
                         response(filteredArray);
                     },
                     select: function (event, ui) {
-                        window.location = "/kisi-ve-olaylar/" + ui.item.slug;
+                        window.location = "kisi-ve-olaylar/" + ui.item.slug + "/index.html";
                     }
                 }).focus(function(){
                     $(this).data("uiAutocomplete").search($(this).val());
@@ -573,7 +573,7 @@
                 
                 $('#kisi-ve-olay-ara').submit(function(e){
                     e.preventDefault();
-                    window.location = "/kisi-ve-olaylar/" + findTagSlugByTitle($(this).children('#kisi-ve-olay-query').val());
+                    window.location = "kisi-ve-olaylar/" + findTagSlugByTitle($(this).children('#kisi-ve-olay-query').val()) + "/index.html";
                 })
             });
             </script>
